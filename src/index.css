@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .font{
+        @apply font-poppins font-normal text-lg
+    }
+
+    .navtext{
+        @apply cursor-pointer hover:text-primary font
+    }
+}
