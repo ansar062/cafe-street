@@ -7,7 +7,7 @@ import Eclipse from "../../../public/images/ellipse.svg"
 export default function Navbar() {
     return (
         <section className="flex w-full py-[41px] bg-[#F6EBDA] space-x-80 mt-[0px]">
-            <div className="ml-[135px]">
+            <div className="ml-[135px] ">
                 <img className="cursor-pointer" src={Logo} alt="" />
             </div>
             <div className="flex space-x-5">
