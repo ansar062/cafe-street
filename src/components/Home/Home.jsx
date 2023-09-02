@@ -1,9 +1,7 @@
 import React from "react";
 import OrderNow from "./components/ordernow";
+import Clips from "./components/clips";
 import cupphoto from "../../../public/images/cup.png"
-import v1 from "../../../public/images/v1.svg"
-import v2 from "../../../public/images/v2.svg"
-// import v3 from "../../../public/images/v3.svg"
 
 export default function Home() {
     return (
@@ -28,8 +26,19 @@ export default function Home() {
             <div id="image">
                 <div className="inline-flex h-[416px] w-[416px] bg-[#2F2105] rounded-full justify-center items-center">
                     <img src={cupphoto} alt="" />
-                </div>
 
+                </div>
+                <div className="absolute top-[253px] right-[393px]">
+
+                    <Clips value={'Cappuccino'} />
+
+                </div>
+                <div className="absolute top-[553px] right-[393px]">
+                    <Clips value={'18K'} />
+                </div>
+                <div className="absolute top-[353px] right-[53px]">
+                    <Clips value={'4.8'} />
+                </div>
             </div>
         </div>
     )
