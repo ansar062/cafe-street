@@ -23,20 +23,20 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div id="image">
+            <div id="image" className="">
                 <div className="inline-flex h-[416px] w-[416px] bg-[#2F2105] rounded-full justify-center items-center">
                     <img src={cupphoto} alt="" />
 
                 </div>
-                <div className="absolute top-[253px] right-[393px]">
+                <div className="absolute top-[253px] animate-bounce">
 
                     <Clips value={'Cappuccino'} />
 
                 </div>
-                <div className="absolute top-[553px] right-[393px]">
+                <div className="absolute top-[553px] animate-bounce">
                     <Clips value={'18K'} />
                 </div>
-                <div className="absolute top-[353px] right-[53px]">
+                <div className="absolute top-[353px] right-[110px] animate-bounce">
                     <Clips value={'4.8'} />
                 </div>
             </div>
